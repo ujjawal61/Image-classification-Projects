@@ -1,0 +1,13 @@
+name: self-driving-udacity
+channels:
+    - conda-forge
+dependencies:
+    - flask-socketio
+    - eventlet
+    - pip:
+        - Pillow
+        - numpy
+        - h5py
+        - tensorflow
+        - keras
+        - lycon
